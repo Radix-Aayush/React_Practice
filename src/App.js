@@ -13,6 +13,12 @@ import StateEmployee from './state-3/StateEmployee';
 import ShopingCard from './EventHandling-5/ShopingCard-4';
 import UserName from './Form-Handling-6/UserName-1';
 import LoginForm from './Form-Handling-6/LoginForm-2';
+import RegistrationForm from './Form-Handling-6/Registration-3';
+import AuthUser from './Conditional Rendring-7/AuthUser';
+import ProductCard from './List-Rendering-8/ProductCard';
+import ParentComponent from './Component-Interection-9/ParentComponent-1';
+import ContactApp from './Contact-App-10/ContactApp';
+
 
 // function based component
 
@@ -20,7 +26,7 @@ function App() {
   return (
     <>
      <nav className='navbar navbar-dark bg-dark navbar-expand-sm'>
-          <a href='/' className='navbar-brand'>React with Form Handling</a>
+          <a href='/' className='navbar-brand'>React with Contact App</a>
      </nav>
       {/* props program */}
       {/* <Employee name="Naveen" age={33}/>
@@ -47,8 +53,21 @@ function App() {
        {/* Form Handling */}
        {/* ---------------------- */}
        {/* <UserName/> */}
-       <LoginForm/>
+       {/* <LoginForm/> */}
+       {/* <RegistrationForm/> */}
 
+       {/* Conditional Rendering */}
+       {/* <AuthUser/> */}
+
+       {/* List Rendering */}
+       {/* <ProductCard/> */}
+
+       {/* Component Intraction */}
+      {/* <ParentComponent/> */}
+
+
+      {/* Contact App */}
+       <ContactApp/>
     </>
   );
 }
