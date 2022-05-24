@@ -18,6 +18,8 @@ import AuthUser from './Conditional Rendring-7/AuthUser';
 import ProductCard from './List-Rendering-8/ProductCard';
 import ParentComponent from './Component-Interection-9/ParentComponent-1';
 import ContactApp from './Contact-App-10/ContactApp';
+import DigitalWatch from './LifeCycle-11/DigitalWatch';
+import UserList from './ServerConnectionAxios-12/UserList';
 
 
 // function based component
@@ -26,7 +28,7 @@ function App() {
   return (
     <>
      <nav className='navbar navbar-dark bg-dark navbar-expand-sm'>
-          <a href='/' className='navbar-brand'>React with Contact App</a>
+          <a href='/' className='navbar-brand'>React with Server Connection</a>
      </nav>
       {/* props program */}
       {/* <Employee name="Naveen" age={33}/>
@@ -67,7 +69,14 @@ function App() {
 
 
       {/* Contact App */}
-       <ContactApp/>
+       {/* <ContactApp/> */}
+
+       {/* Component Life Cycle */}
+       {/* <DigitalWatch/> */}
+
+       {/* Server Connection Axios */}
+       {/* <UserList/> */}
+
     </>
   );
 }
